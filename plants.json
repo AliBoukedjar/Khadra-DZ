@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "name": "Dragon Fruit",
+    "scientific_name": "Selenicereus undatus",
+    "type": "Cactaceae",
+    "size": "Large",
+    "price": null,
+    "description": "A climbing cactus known for its stunning night-blooming flowers and delicious fruit.",
+    "care": {
+      "water": "Moderate during growing season, reduce in winter",
+      "light": "Full sun to partial shade",
+      "temperature": "18-30°C (can tolerate brief cold spells)",
+      "humidity": "Moderate",
+      "soil": "Well-draining cactus mix",
+      "fertilizer": "Balanced fertilizer monthly during growth",
+      "special": "Needs support to climb"
+    },
+    "bestseller": false,
+    "image_url": "images/dragon-fruit.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Jelly Bean Cactus",
+    "scientific_name": "Haworthia cooperi",
+    "type": "Asphodelaceae",
+    "size": "Small",
+    "price": null,
+    "description": "Small succulent with translucent, jelly-like leaves that form dense clusters.",
+    "care": {
+      "water": "Let soil dry between waterings",
+      "light": "Bright indirect light",
+      "temperature": "15-26°C",
+      "humidity": "Low to moderate",
+      "soil": "Well-draining succulent mix",
+      "fertilizer": "Diluted fertilizer in growing season",
+      "special": "Leaves turn red with sun stress"
+    },
+    "bestseller": true,
+    "image_url": "images/jelly-bean-cactus.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Crocodile Plant",
+    "scientific_name": "Aloe brevifolia",
+    "type": "Asphodelaceae",
+    "size": "Small to medium",
+    "price": null,
+    "description": "Compact aloe with triangular, toothed leaves resembling crocodile skin.",
+    "care": {
+      "water": "Water deeply but infrequently",
+      "light": "Full sun to partial shade",
+      "temperature": "10-30°C",
+      "humidity": "Low",
+      "soil": "Sandy, well-draining mix",
+      "fertilizer": "Light feeding in spring",
+      "special": "Produces orange flowers"
+    },
+    "bestseller": false,
+    "image_url": "images/crocodile-plant.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Common Prickly Pear",
+    "scientific_name": "Opuntia monacantha",
+    "type": "Cactaceae",
+    "size": "Medium to large",
+    "price": null,
+    "description": "Flat-padded cactus with spines, produces edible fruits and colorful flowers.",
+    "care": {
+      "water": "Very drought tolerant, water sparingly",
+      "light": "Full sun",
+      "temperature": "10-38°C",
+      "humidity": "Low",
+      "soil": "Gritty, well-draining mix",
+      "fertilizer": "Optional light feeding in summer",
+      "special": "Pads root easily for propagation"
+    },
+    "bestseller": false,
+    "image_url": "images/common-prickly-pear.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Eve's Pin",
+    "scientific_name": "Austrocylindropuntia subulata",
+    "type": "Cactaceae",
+    "size": "Large",
+    "price": null,
+    "description": "Tree-like cactus with cylindrical stems and persistent leaves uncommon in cacti.",
+    "care": {
+      "water": "Very drought tolerant, minimal water",
+      "light": "Full sun",
+      "temperature": "5-35°C",
+      "humidity": "Low",
+      "soil": "Very well-draining mix",
+      "fertilizer": "Not needed",
+      "special": "Can grow several feet tall"
+    },
+    "bestseller": false,
+    "image_url": "images/eves-pin.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Milk Bush",
+    "scientific_name": "Euphorbia tirucalli",
+    "type": "Euphorbiaceae",
+    "size": "Large",
+    "price": null,
+    "description": "Pencil-thin succulent branches with toxic milky sap, also called 'Pencil Cactus'.",
+    "care": {
+      "water": "Let soil dry completely between waterings",
+      "light": "Bright light to full sun",
+      "temperature": "15-30°C",
+      "humidity": "Low",
+      "soil": "Well-draining mix",
+      "fertilizer": "Light feeding in growing season",
+      "special": "Sap is toxic and irritating"
+    },
+    "bestseller": false,
+    "image_url": "images/milk-bush.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Bird's Nest Pincushion",
+    "scientific_name": "Mammillaria decipiens",
+    "type": "Cactaceae",
+    "size": "Small",
+    "price": null,
+    "description": "Small clustering cactus with white spines forming a nest-like shape.",
+    "care": {
+      "water": "Water when soil is dry",
+      "light": "Bright light with some direct sun",
+      "temperature": "10-30°C",
+      "humidity": "Low",
+      "soil": "Cactus mix with extra grit",
+      "fertilizer": "Light feeding in summer",
+      "special": "Produces pink flowers"
+    },
+    "bestseller": true,
+    "image_url": "images/birds-nest-pincushion.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Aloe Vera",
+    "scientific_name": "Aloe vera",
+    "type": "Asphodelaceae",
+    "size": "Medium",
+    "price": null,
+    "description": "Popular medicinal plant with thick, gel-filled leaves known for healing properties.",
+    "care": {
+      "water": "Let soil dry between waterings",
+      "light": "Bright light, some direct sun",
+      "temperature": "15-30°C",
+      "humidity": "Low to moderate",
+      "soil": "Well-draining succulent mix",
+      "fertilizer": "Light feeding in spring/summer",
+      "special": "Gel has skin-healing properties"
+    },
+    "bestseller": true,
+    "image_url": "images/aloe-vera.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Guinea-fowl Aloe",
+    "scientific_name": "Aristaloe aristata",
+    "type": "Asphodelaceae",
+    "size": "Small",
+    "price": null,
+    "description": "Compact aloe with white-spotted triangular leaves and delicate white filaments.",
+    "care": {
+      "water": "Water when soil is dry",
+      "light": "Bright light, some direct sun",
+      "temperature": "10-30°C",
+      "humidity": "Low",
+      "soil": "Well-draining mix",
+      "fertilizer": "Light feeding in growing season",
+      "special": "Produces coral flowers"
+    },
+    "bestseller": false,
+    "image_url": "images/guinea-fowl-aloe.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Fairies Castle",
+    "scientific_name": "Acanthocereus tetragonus",
+    "type": "Cactaceae",
+    "size": "Medium",
+    "price": null,
+    "description": "Columnar cactus with multiple upright stems resembling castle turrets.",
+    "care": {
+      "water": "Water when soil is dry",
+      "light": "Full sun to partial shade",
+      "temperature": "15-35°C",
+      "humidity": "Low",
+      "soil": "Well-draining cactus mix",
+      "fertilizer": "Light feeding in summer",
+      "special": "Night-blooming white flowers"
+    },
+    "bestseller": false,
+    "image_url": "images/fairies-castle.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Gymnocalycium calochlorum",
+    "scientific_name": "Gymnocalycium calochlorum",
+    "type": "Cactaceae",
+    "size": "Small",
+    "price": null,
+    "description": "Small globular cactus with green body and minimal spines.",
+    "care": {
+      "water": "Water when soil is dry",
+      "light": "Bright indirect light",
+      "temperature": "10-30°C",
+      "humidity": "Low",
+      "soil": "Well-draining cactus mix",
+      "fertilizer": "Light feeding in growing season",
+      "special": "Produces pink flowers"
+    },
+    "bestseller": false,
+    "image_url": "images/gymnocalycium-calochlorum.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Peruvian Apple Cactus",
+    "scientific_name": "Cereus repandus",
+    "type": "Cactaceae",
+    "size": "Large",
+    "price": null,
+    "description": "Tall columnar cactus that produces edible red fruits.",
+    "care": {
+      "water": "Drought tolerant, water occasionally",
+      "light": "Full sun",
+      "temperature": "10-35°C",
+      "humidity": "Low",
+      "soil": "Well-draining mix",
+      "fertilizer": "Optional light feeding in summer",
+      "special": "Night-blooming flowers"
+    },
+    "bestseller": false,
+    "image_url": "images/peruvian-apple-cactus.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Carrion-flower",
+    "scientific_name": "Orbea variegata",
+    "type": "Apocynaceae",
+    "size": "Small",
+    "price": null,
+    "description": "Succulent with star-shaped flowers that smell like rotting meat to attract pollinators.",
+    "care": {
+      "water": "Let soil dry between waterings",
+      "light": "Bright indirect light",
+      "temperature": "15-30°C",
+      "humidity": "Low to moderate",
+      "soil": "Well-draining mix",
+      "fertilizer": "Light feeding in growing season",
+      "special": "Unpleasant-smelling flowers"
+    },
+    "bestseller": false,
+    "image_url": "images/carrion-flower.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Spanish Stonecrop",
+    "scientific_name": "Sedum hispanicum",
+    "type": "Crassulaceae",
+    "size": "Small",
+    "price": null,
+    "description": "Low-growing succulent with tiny blue-green leaves forming dense mats.",
+    "care": {
+      "water": "Drought tolerant, water sparingly",
+      "light": "Full sun to partial shade",
+      "temperature": "5-30°C",
+      "humidity": "Low",
+      "soil": "Well-draining mix",
+      "fertilizer": "Not needed",
+      "special": "Good for rock gardens"
+    },
+    "bestseller": false,
+    "image_url": "images/spanish-stonecrop.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Bunny-ears Prickly-pear",
+    "scientific_name": "Opuntia microdasys",
+    "type": "Cactaceae",
+    "size": "Medium",
+    "price": null,
+    "description": "Prickly pear with pad-like stems covered in tiny glochids (hair-like spines).",
+    "care": {
+      "water": "Drought tolerant, water occasionally",
+      "light": "Full sun",
+      "temperature": "10-35°C",
+      "humidity": "Low",
+      "soil": "Well-draining cactus mix",
+      "fertilizer": "Optional light feeding in summer",
+      "special": "Glochids detach easily and irritate skin"
+    },
+    "bestseller": true,
+    "image_url": "images/bunny-ears-prickly-pear.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Ice Plant",
+    "scientific_name": "Delosperma lehmannii",
+    "type": "Aizoaceae",
+    "size": "Small",
+    "price": null,
+    "description": "Succulent with geometric leaves and daisy-like flowers.",
+    "care": {
+      "water": "Let soil dry between waterings",
+      "light": "Full sun",
+      "temperature": "10-30°C",
+      "humidity": "Low",
+      "soil": "Well-draining mix",
+      "fertilizer": "Light feeding in growing season",
+      "special": "Leaves have crystalline appearance"
+    },
+    "bestseller": false,
+    "image_url": "images/ice-plant.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Elephant Bush",
+    "scientific_name": "Portulacaria afra",
+    "type": "Didiereaceae",
+    "size": "Medium to large",
+    "price": null,
+    "description": "Small-leaved succulent often used in bonsai, with reddish stems.",
+    "care": {
+      "water": "Let soil dry between waterings",
+      "light": "Bright light to full sun",
+      "temperature": "10-30°C",
+      "humidity": "Low",
+      "soil": "Well-draining mix",
+      "fertilizer": "Light feeding in growing season",
+      "special": "Edible leaves with sour taste"
+    },
+    "bestseller": false,
+    "image_url": "images/elephant-bush.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Soap Aloe",
+    "scientific_name": "Aloe maculata",
+    "type": "Asphodelaceae",
+    "size": "Medium",
+    "price": null,
+    "description": "Spotted aloe with triangular leaves and soap-like sap.",
+    "care": {
+      "water": "Let soil dry between waterings",
+      "light": "Full sun to partial shade",
+      "temperature": "10-30°C",
+      "humidity": "Low",
+      "soil": "Well-draining mix",
+      "fertilizer": "Light feeding in growing season",
+      "special": "Produces colorful flower spikes"
+    },
+    "bestseller": false,
+    "image_url": "images/soap-aloe.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Peruvian Apple Cactus (small)",
+    "scientific_name": "Cereus repandus",
+    "type": "Cactaceae",
+    "size": "Small",
+    "price": null,
+    "description": "Young specimen of the tall columnar cactus that produces edible red fruits.",
+    "care": {
+      "water": "Drought tolerant, water occasionally",
+      "light": "Full sun",
+      "temperature": "10-35°C",
+      "humidity": "Low",
+      "soil": "Well-draining mix",
+      "fertilizer": "Optional light feeding in summer",
+      "special": "Will grow very tall over time"
+    },
+    "bestseller": false,
+    "image_url": "images/peruvian-apple-cactus-small.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Climbing Aloe",
+    "scientific_name": "Aloiampelos ciliaris",
+    "type": "Asphodelaceae",
+    "size": "Medium to large",
+    "price": null,
+    "description": "Fast-growing aloe that climbs with the help of its hooked leaves.",
+    "care": {
+      "water": "Water when soil is dry",
+      "light": "Bright light, some direct sun",
+      "temperature": "10-30°C",
+      "humidity": "Low to moderate",
+      "soil": "Well-draining mix",
+      "fertilizer": "Light feeding in growing season",
+      "special": "Produces red-orange flowers"
+    },
+    "bestseller": false,
+    "image_url": "images/climbing-aloe.jpg"
+  }
+]

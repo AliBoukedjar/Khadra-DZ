@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Green Haven Plants</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Lora:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="container header-container">
+        <div class="logo">
+          <img
+            src="images/logo-transparent.png"
+            alt="KhadraDz Logo"
+            class="logo-img"
+          />
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="all-plants.html">All Plants</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#care">Care Tips</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Bring Nature Into Your Home</h1>
+        <p>
+          Discover our premium selection of indoor and outdoor plants. Beautify
+          your space with nature's finest.
+        </p>
+        <a href="all-plants.html" class="btn">View All Plants</a>
+      </div>
+    </section>
+
+    <!-- Featured Plants -->
+    <section id="plants" class="container">
+      <h2 class="section-title">Our Plant Collection</h2>
+      <div class="plants-grid">
+        <!-- JS will insert plants here -->
+      </div>
+      <!-- Add this new button -->
+      <div style="text-align: center; margin-top: 30px">
+        <a href="all-plants.html" class="hero-btn">See All Plants →</a>
+      </div>
+    </section>
+
+    <script src="index.js"></script>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+      <div class="container">
+        <h2 class="section-title">Our Story</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              Green Haven started as one man's obsession with plants. My father,
+              a self-taught gardener, began growing succulents and herbs in our
+              backyard in Algiers. What began as a hobby soon turned into a
+              small nursery—pots stacked on the patio, seedlings crowding every
+              sunny corner.
+            </p>
+            <p>
+              This isn't a fancy greenhouse business. It's just us, tending to
+              each plant by hand, learning through trial and error. We don't
+              have thousands of customers, but every person who adopts one of
+              our plants becomes part of our story.
+            </p>
+            <p>
+              This website is our way of sharing his passion beyond our
+              neighborhood. If you're in Algeria and want a hardy, homegrown
+              plant—or just some advice—reach out. We’re happy to help.
+            </p>
+          </div>
+          <div class="about-img">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 100 100"
+              fill="#2e8b57"
+            >
+              <path d="M50 10L20 50h60z" />
+              <!-- Simple plant shape -->
+            </svg>
+            <p>Our beginnings in Algiers</p>
+            <!-- Optional caption -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Care Tips -->
+
+    <section id="care" class="container">
+      <h2 class="section-title">Plant Care Tips</h2>
+      <div class="tips-grid">
+        <div class="tip-card">
+          <div class="tip-icon">💧</div>
+          <h3>Watering</h3>
+          <p>
+            Water in the early morning or evening. Let soil dry between
+            waterings. Cacti need less — once every 10–14 days.
+          </p>
+        </div>
+
+        <div class="tip-card">
+          <div class="tip-icon">☀️</div>
+          <h3>Light</h3>
+          <p>
+            Most plants enjoy sun, but shield delicate ones from harsh midday
+            light. Cacti love full sun.
+          </p>
+        </div>
+
+        <div class="tip-card">
+          <div class="tip-icon">🌡️</div>
+          <h3>Temperature</h3>
+          <p>
+            Avoid placing plants near heat sources or cold drafts. Shade pots
+            during extreme heat.
+          </p>
+        </div>
+
+        <div class="tip-card">
+          <div class="tip-icon">🍃</div>
+          <h3>Humidity</h3>
+          <p>
+            Most plants adapt well. Mist occasionally or group them if the air
+            feels too dry indoors.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-column">
+            <h3>Khadra DZ</h3>
+            <p>
+              Bringing nature's beauty into your home since 2023. Quality plants
+              with expert care advice.
+            </p>
+            <div class="social-links">
+              <a
+                href="https://www.facebook.com/share/1AJyPs45tV/"
+                target="_blank"
+                rel="noopener"
+              >
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+                  <path
+                    d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="footer-column">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="all-plants.html">All Plants</a></li>
+              <!-- Updated -->
+              <li><a href="index.html#about">About</a></li>
+              <li><a href="index.html#care">Care Tips</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Contact</h3>
+            <ul>
+              <li>Based in Algiers</li>
+              <li>DM us on FB</li>
+              <li><i class="fas fa-phone"></i> Phone: 0793 02 85 46</li>
+              <li>
+                <a href="mailto:khadradz31@gmail.com" class="email-link">
+                  <i class="fas fa-envelope"></i> khadradz31@gmail.com
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2023 Green Haven Plants. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Lora:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="plant-detail.css" />
+    <title id="plant-title">Plant Details | Green Haven</title>
+  </head>
+  <body>
+    <header>
+      <div class="container header-container">
+        <a href="#" class="logo">
+          <img
+            src="images/logo-transparent.png"
+            alt="KhadraDz Logo"
+            class="logo-img"
+          />
+        </a>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="all-plants.html">All Plants</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container plant-detail">
+      <a href="all-plants.html" class="back-btn">← All Plants</a>
+
+      <div class="detail-grid">
+        <div class="detail-image loading">
+          <img id="plant-image" src="" alt="" />
+        </div>
+
+        <div class="detail-info loading">
+          <h1 id="plant-name"></h1>
+          <p id="plant-scientific" class="scientific-name"></p>
+          <p id="plant-description"></p>
+
+          <div class="care-section">
+            <h2>Care Guide</h2>
+            <ul id="plant-care"></ul>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="plant-detail.js"></script>
+  </body>
+</html>

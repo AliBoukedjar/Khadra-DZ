@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All Plants | Green Haven</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Lora:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="all-plants.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="container header-container">
+        <a href="#" class="logo">
+          <img
+            src="images/logo-transparent.png"
+            alt="KhadraDz Logo"
+            class="logo-img"
+          />
+        </a>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="all-plants.html">All Plants</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+      <h1 class="page-title">Our Complete Collection</h1>
+
+      <div class="plant-filters">
+        <button class="filter-btn active" data-filter="all">All Plants</button>
+        <button class="filter-btn" data-filter="Cactus">Cacti</button>
+        <button class="filter-btn" data-filter="Succulent">Succulents</button>
+        <button class="filter-btn" data-filter="Foliage">Foliage</button>
+      </div>
+
+      <div class="plants-grid" id="plants-grid">
+        <!-- Plants will be loaded here by JavaScript -->
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer id="contact">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-column">
+            <h3>Green Haven</h3>
+            <p>
+              A small Algerian plant project grown with patience. Questions? DM
+              us on Instagram!
+            </p>
+          </div>
+          <div class="footer-column">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="all-plants.html">All Plants</a></li>
+              <li><a href="index.html#about">About</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Contact</h3>
+            <ul>
+              <li>Based in Algiers</li>
+              <li>DM for availability</li>
+            </ul>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2023 Green Haven Plants. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="all-plants.js"></script>
+  </body>
+</html>
